@@ -1,9 +1,4 @@
 #pragma once
 
-namespace foobar
-{
-    struct Example
-    {
-        int getValue() const;
-    };
-}
+int multiplicacion(int a, int b);
+int menor(int a, int b);

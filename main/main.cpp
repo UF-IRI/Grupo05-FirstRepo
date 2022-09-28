@@ -3,10 +3,12 @@
 
 #include "example.h"
 
+// ("argc" y un "char** argv) incluidos en el main viene con la plantilla de ezequiel
+
 int main(int argc, char** argv)
 {
-    foobar::Example example{};
-    std::cout << "Example.getValue() => " << example.getValue() << std::endl;
+	int a = 7;
+	int b = 3;
+	int resultado = multiplicacion(a, b);
 
-    return EXIT_SUCCESS;
 }
