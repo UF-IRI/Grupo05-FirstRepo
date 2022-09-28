@@ -15,8 +15,8 @@ TEST(funciones, numeroMenor)
 TEST(funciones, numeroMultiplicacion)
 {
 	ASSERT_THAT(multiplicacion(7, 3), 21);
-	ASSERT_FALSE(multiplicacion(7, 3), 22);
-	ASSERT_FALSE(multiplicacion(7, 3), 20);
-	ASSERT_FALSE(multiplicacion(7, 3), 19);
-
+	ASSERT_TRUE(multiplicacion(7, 3), 21);
+	ASSERT_TRUE(multiplicacion(7, 3), 21);
+	ASSERT_TRUE(multiplicacion(7, 3), 21);
+	
 }
